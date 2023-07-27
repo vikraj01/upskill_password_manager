@@ -6,7 +6,7 @@ root = Tk()
 root.title("Password Manager")
 root.geometry("500x400")
 root.minsize(600, 400)
-root.maxsize(600, 400)
+root.maxsize(600, 400) 
 
 frame = Frame(root, bg="#80c1ff", bd=5)
 frame.place(relx=0.50, rely=0.50, relwidth=0.98, relheight=0.45, anchor="n")
